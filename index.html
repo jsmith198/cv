@@ -3,67 +3,67 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Jonah's Personal Site</title>
+  <title>Jonah Smith</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="favicon.ico">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Raleway:wght@600&family=Sacramento&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <table cellspacing="20">
-    <tr>
-      <td> <img src="https://raw.githubusercontent.com/jsmith198/cv/master/jonah.png" alt="Image" height="200" width="200"></td>
-      <td>
-        <h1>Jonah Smith</h1>
-        <p><em>Computer Science Major.</em></p>
-        <P>I am currently studying at Ramapo College of New Jersey.</P>
-      </td>
-    </tr>
-  </table>
-  <hr>
-  <h3>School Summary</h3>
-  <ul>
-    <li>Pioneer Academy</li>
-    <li>Ramapo College of New Jersey</li>
-  </ul>
-  <hr>
-  <h3>Work Experience</h3>
-  <table cellspacing="10">
-    <thead>
-      <tr>
-        <th>Dates</th>
-        <th>Work</th>
-      </tr>
-    </thead>
-    <tbody>
-    </tbody>
-    <tfoot>
-    </tfoot>
-    <tr>
-      <td>2018-2019</td>
-      <td>IT Specialist at Pioneer Academy.</td>
-    </tr>
-    <tr>
-      <td>2016-2018</td>
-      <td>Operations Manager at Network Devices Inc.</td>
-    </tr>
-  </table>
-  <hr>
-  <h3>Skills</h3>
-  <table cellspacing="10">
-    <tr>
-      <td>C++</td>
-      <td>⭐⭐⭐⭐⭐</td>
-    </tr>
-    <tr>
-      <td>HTML, CSS, Javascript</td>
-      <td>⭐⭐⭐⭐⭐</td>
-    </tr>
-    <tr>
-      <td>Nurburgring Laptime of 00:09:00</td>
-      <td>⭐⭐⭐⭐⭐</td>
-    </tr>
-  </table>
-  <hr>
-  <a href="hobbies.html">My Hobbies</a>
-  <a href="contact-me.html">My Contact Details</a>
+
+  <!--******************************************TOP CONTAINER*******************************************-->
+
+
+  <div class="top-container">
+    <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
+    <h1>I'm Jonah.</h1>
+    <h2>a <span class="pro">pro</span>grammer.</h2>
+    <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
+    <img src="images/mountain.png" alt="mountain-img">
+  </div>
+
+  <!--****************************************MIDDLE CONTAINER****************************************/-->
+
+  <div class="middle-container">
+    <div class="profile">
+      <img class="profile-pic" src="images/jonah.png" alt="profile-picture">
+      <h2>Hello.</h2>
+      <p class="intro">I am a full-stack developer. I am currently attending Ramapo College of New Jersey and majoring in Computer Science.</p>
+    </div>
+    <hr>
+    <div class="skills">
+      <h2>My Skills.</h2>
+      <div class="skill-row">
+        <img class="code-img" src="https://image.flaticon.com/icons/svg/2920/2920277.svg" alt="code-img">
+        <br>
+        <h3>C++</h3>
+        <p>I am fluent in c++</p>
+
+      </div>
+      <div class="skill-row">
+        <img class="internet-img" src="https://image.flaticon.com/icons/svg/887/887471.svg" alt="internet-img">
+        <br>
+        <h3>Developer Skills</h3>
+        <p>I know how to work with HTML, CSS, javascrips, jQuery, Node.js, Express.js, SQL, and React.js.</p>
+
+      </div>
+    </div>
+    <hr>
+    <div class="contact-me" <h2>Get In Touch</h2>
+      <h3>If you would like to work with me.</h3>
+      <p class="contact-message">Need a highly skilled developer? You can contact me via email. I am always avaliable to talk.</p>
+      <a class="btn" href="mailto:name@email.com">CONTACT ME</a>
+    </div>
+  </div>
+
+  <!--****************************************BOTTOM CONTAINER****************************************-->
+
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/in/jonah-smith-b84646164">LinkedIn</a>
+    <p class="copyright">© 2020 Jonah Smith.</p>
+  </div>
+
+
 </body>
 
 </html>
